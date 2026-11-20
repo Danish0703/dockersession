@@ -1,0 +1,8 @@
+spring:
+  flyway:
+    schemas: todo_test
+    default-schema: todo_test
+  jpa:
+    properties:
+      hibernate:
+        default_schema: todo_test
